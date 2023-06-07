@@ -2,7 +2,7 @@
 let hoursEl = document.querySelector('.hours');
 let minutesEl = document.querySelector('.minutes');
 let secondsEl = document.querySelector('.seconds');
-let hours, minutes, seconds = 0;
+let hours = minutes = seconds = 0;
 let isPaused = true;
 let interval;
 
