@@ -109,3 +109,40 @@ a {
 a:hover {
     color: var(--purple);
 }
+
+@media screen and (max-width: 1024px){
+    body {
+        background-position: center;
+    }
+    section {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        width: 300px;
+    }
+    .box {
+        font-size: .8rem;
+    }
+    .box > .texts {
+        font-size: 3rem;
+    }
+    .btns > .btn {
+        width: 60px;
+        height: 30px;
+    }
+    .btns {
+        margin: 1rem 0;
+    }
+    .iconBtn {
+        font-size: 1rem;
+    }
+    .footer {
+        font-size: .5rem;
+        margin: 3rem 0 2rem;
+    }
+}
