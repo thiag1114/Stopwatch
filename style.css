@@ -113,7 +113,6 @@ a:hover {
 @media screen and (max-width: 1024px){
     body {
         background-position: center;
-        overflow-y: hidden;
     }
     section {
         top: 50%;
