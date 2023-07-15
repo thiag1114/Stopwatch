@@ -6,6 +6,7 @@ let hours = minutes = seconds = 0;
 let isPaused = true;
 let interval;
 
+
 // Buttons
 let buttonStart = document.querySelector('.start');
 let buttonPause = document.querySelector('.pause');
